@@ -1,4 +1,8 @@
-S -> NP VP
-NP -> DET N
-VP -> V NP
-NP -> DET ADJ N
+S, NP, VP, DET, N, V, ADJ, NP_SG, NP_PL, VP_SG, VP_PL, N_SG, N_PL, V_SG, V_PL
+S -> NP_SG VP_SG
+NP_SG -> DET N_SG
+NP_SG -> DET ADJ N_SG
+VP_SG -> V_SG NP_SG
+S -> NP_PL VP_PL
+NP_PL -> DET N_PL
+VP_PL -> V_PL NP_SG
